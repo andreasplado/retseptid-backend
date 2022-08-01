@@ -6,7 +6,8 @@ plugins {
 
 group = 'com.kook'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '18'
+targetCompatibility = 1.6 //or 1.7;1.8 and so on
+sourceCompatibility = 1.6 //or 1.7;1.8 and so on
 
 repositories {
 	mavenCentral()
